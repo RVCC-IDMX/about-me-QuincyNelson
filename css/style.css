@@ -1,11 +1,12 @@
 body {
     font-family: Roboto;
-    background-color:goldenrod;
+    background-color:rgba(105, 178, 200, 0.716);
     color:blue;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family:"tilt prism";
+    text-align:center;
 }
 h1 {
     font-size:40pt
@@ -17,14 +18,14 @@ header {
 
 #hero, footer {
     color:cornflowerblue;
-    border: 2px solid;
+    border: 2px solid #C2B367;
     background-color:beige;
     text-align:center;
     padding: 10px
 }
 
 #hobbies h2 {
-    color:aquamarine;
+    color:rgb(53, 47, 75);
     box-shadow:aliceblue (24, 108, 80);
     box-shadow:3pt;
     display:flex;
@@ -46,10 +47,13 @@ header {
 
 }
 
+/*Hero section*/
+
 #hero img {
     width:300px;
 }
 
+/*Bio section*/
 #bio {
     text-align:left ;
 }
@@ -62,6 +66,15 @@ header {
     font-size: 30pt;
 }
 
+/*Gallery*/
+
+#gallery {
+    border: 2px solid #C2B367; 
+}
+
+#gallery img{ 
+    max-width:100%;
+}
 /*Lit Section*/
 
 #lit p:first-letter {
