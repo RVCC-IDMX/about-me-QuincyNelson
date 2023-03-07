@@ -7,8 +7,6 @@ body {
 h1, h2, h3, h4, h5, h6{
     font-family:"tilt prism";
     text-align:center;
-}
-h1 {
     font-size:40pt
 }
 
@@ -75,19 +73,32 @@ header {
 #gallery img{ 
     max-width:100%;
 }
+/*Literature*/
+#Lit {
+    border:2px solid #C2B367;
+    margin-bottom:2rem;
+}
+
+#lit div {
+    padding:2rem;
+    max-width:40rem;
+    margin: 0 auto;
+}
 /*Lit Section*/
 
-#lit p:first-letter {
+#lit div p:first-letter {
     color:bisque  ;
-    font-size: 16pt;
+    background-image: radial-gradient(#fff), #a3721c;
+    border:2px solid #121634;
+    margin-bottom:2rem;
+    font-size: 16px;
     padding: 1ex;
     font-weight:bold;
-    background-color:coral;
-    text-shadow: 2px 3px;
+    background-color:rgb(80, 150, 255);
     box-shadow: 3px 3px;
 }
 
-    
+
 
 /* Media Queries */
 
